@@ -11,7 +11,7 @@ export const HeaderComponent = () => {
                 <NavBarMenu />
             </div>
             <div className="w-1/2 flex items-center justify-center">
-                <Image src="/user.svg" alt="logo" width={16} height={14} />
+                <Image src="/Icons/user.svg" alt="logo" width={16} height={14} />
                 <Button variant={"link"}>Login</Button>
                 <p className="bg-white rounded-full text-black text-normal font-medium mx-2 px-4 py-2">Get in Touch</p>
             </div>
