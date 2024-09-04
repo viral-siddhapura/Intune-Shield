@@ -4,6 +4,7 @@ import { BusinessPartnersGrid } from "@/components/businessPartner/business-part
 import { FooterSection } from "@/components/footer/footer-component";
 import { AboutSoftecTitle } from "@/components/navigation/about-softec-title";
 import { HeaderComponent } from "@/components/navigation/header-component";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -23,8 +24,8 @@ export default function Home() {
       <div className="flex justify-center mt-40 mb-10">
         <CompanyStory />
       </div>
-      <div className="flex justify-center mt-40 mb-10">
-        <FooterSection/>
+      <div className="flex justify-center mt-40 bg-[#F5F3F8] h-[680px]">
+        <FooterSection />
       </div>
     </div>
   );
